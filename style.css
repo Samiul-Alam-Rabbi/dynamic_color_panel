@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#panel-box{
+    position: fixed;
+    left: -200px;
+    width: 200px;
+    height: 150px;
+    background: #ffffff;
+    top: calc(50% - 110px);
+    transition: all ease-in-out 1s;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -ms-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+}
+#panel-box.controlbtnactive{
+    left: 0;
+}
+.color-box{
+    padding-top: 15px;
+    padding-left: 8px;
+}
+.color-box span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+.color-box .control-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    left:100%;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+.color-box .control-btn i{
+    font-size: 30px;
+    color: #000;
+}
+.red-color{
+    background: red;
+}
+.green-color{
+    background: green;
+}
+.yellow-color{
+    background: yellow;
+}
+.violet-color{
+    background: violet;
+}
+.cyan-color{
+    background: cyan;
+}
+.blue-color{
+    background: blue;
+}
+.container{
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+    padding: 200px 0;
+    align-items: center;
+    justify-content: center;
+}
+#header-area{
+    background:chartreuse;
+}
+#service-area{
+    background: cyan;
+}
