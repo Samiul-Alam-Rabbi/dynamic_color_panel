@@ -84,3 +84,27 @@ body{
 #service-area{
     background: cyan;
 }
+button{
+    padding: 12px 26px;
+    background: coral;
+    border: none;
+    cursor: pointer;
+}
+.red-color-bar button{
+    background: red;
+}
+.green-color-bar button{
+    background: green;
+}
+.cyan-color-bar button{
+    background: cyan;
+}
+.yellow-color-bar button{
+    background: yellow;
+}
+.blue-color-bar button{
+    background: blue;
+}
+.violet-color-bar button{
+    background: violet;
+}
