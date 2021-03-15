@@ -89,6 +89,7 @@ button{
     background: coral;
     border: none;
     cursor: pointer;
+    color: #fff;
 }
 .red-color-bar button{
     background: red;
